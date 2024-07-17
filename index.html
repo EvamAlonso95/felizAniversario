@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
@@ -14,42 +14,38 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+NSW:wght@100..400&display=swap" rel="stylesheet">
+    <style>
+        label {
+            font-family: "Playwrite AU NSW, cursive";
+            font-size: 25px;
+        }
+
+        body {
+            background-image: url('./img/watercolor-splash-background.jpg');
+            background-size: cover;
+        }
+    </style>
 </head>
-<style>
-    label {
-        font-family: "Playwrite AU NSW, cursive";
-        font-size: 25px;
-    }
 
-    body {
-        background-image: url('./img/watercolor-splash-background.jpg');
-    }
-</style>
-
-<body class="bg-success d-flex flex-column justify-content-center align-items-center" style="min-height: 100vh;">
-
-
+<body class="d-flex flex-column justify-content-center align-items-center" style="min-height: 100vh;">
     <div class="container p-3 bg-opacity-10 rounded-3 d-flex justify-content-center"
-        style="width: 30%; background-color: rgba(255, 209, 220, 0.7)">
+        style="max-width: 500px; background-color: rgba(255, 209, 220, 0.7)">
         <div class="row mt-3">
-            <div class="col">
-                <h1 style="font-family: Playwrite AU NSW, cursive; text-align: center; "> ❤️ Feliz
-                    Aniversario ❤️ </h1>
+            <div class="col-12 mb-3">
+                <h1 style="font-family: 'Playwrite AU NSW', cursive; text-align: center;">❤️ Feliz Aniversario ❤️</h1>
                 <form action="#">
-                    <div class="mb-3 mt-3" style="font-family: Playwrite AU NSW, cursive;  ">
+                    <div class="mb-3 mt-3" style="font-family: 'Playwrite AU NSW', cursive;">
                         <label for="password" class="form-label"
-                            style="font-family: Playwrite AU NSW, cursive;">Contraseña:</label>
+                            style="font-family:'Playwrite AU NSW', cursive;">Contraseña:</label>
                         <input type="password" class="form-control" placeholder="Adivina la contraseña" id="password">
                     </div>
                     <div class="d-flex justify-content-end">
                         <input type="button" value="Te amo" class="btn btn-outline-info" onclick="loggin()">
                     </div>
                 </form>
-
             </div>
         </div>
     </div>
-
 
     <script src="jquery-3.7.1.min.js"></script>
     <script src="./js/script.js"></script>
