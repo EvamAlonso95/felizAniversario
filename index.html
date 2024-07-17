@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/icons8-me-gusta-16.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <title>Login Aniversario</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+NSW:wght@100..400&display=swap" rel="stylesheet">
+</head>
+<style>
+    label {
+        font-family: "Playwrite AU NSW, cursive";
+        font-size: 25px;
+    }
+
+    body {
+        background-image: url('./img/watercolor-splash-background.jpg');
+    }
+</style>
+
+<body class="bg-success d-flex flex-column justify-content-center align-items-center" style="min-height: 100vh;">
+
+
+    <div class="container p-3 bg-opacity-10 rounded-3 d-flex justify-content-center"
+        style="width: 30%; background-color: rgba(255, 209, 220, 0.7)">
+        <div class="row mt-3">
+            <div class="col">
+                <h1 style="font-family: Playwrite AU NSW, cursive; text-align: center; "> ❤️ Feliz
+                    Aniversario ❤️ </h1>
+                <form action="#">
+                    <div class="mb-3 mt-3" style="font-family: Playwrite AU NSW, cursive;  ">
+                        <label for="password" class="form-label"
+                            style="font-family: Playwrite AU NSW, cursive;">Contraseña:</label>
+                        <input type="password" class="form-control" placeholder="Adivina la contraseña" id="password">
+                    </div>
+                    <div class="d-flex justify-content-end">
+                        <input type="button" value="Te amo" class="btn btn-outline-info" onclick="loggin()">
+                    </div>
+                </form>
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
